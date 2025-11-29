@@ -1,0 +1,582 @@
+﻿Microsoft Windows [Version 10.0.26100.4946]
+(c) Microsoft Corporation. All rights reserved.
+
+
+C:\Users\User>cd downloads
+
+
+C:\Users\User\Downloads>mkdir OS-L1
+
+
+C:\Users\User\Downloads>cd OS-L1
+
+
+C:\Users\User\Downloads\OS-L1>mkdir "Operating Systems"
+
+
+C:\Users\User\Downloads\OS-L1>mkdir Networks
+
+
+C:\Users\User\Downloads\OS-L1>mkdir "Software Engineering"
+
+
+
+
+C:\Users\User\Downloads\OS-L1>cd Networks
+
+
+C:\Users\User\Downloads\OS-L1\Networks>md Instructor
+
+
+C:\Users\User\Downloads\OS-L1\Networks>md Students
+
+
+C:\Users\User\Downloads\OS-L1\Networks>md Topics
+
+
+C:\Users\User\Downloads\OS-L1\Networks>cd ..
+
+
+
+
+C:\Users\User\Downloads\OS-L1>cd Operating Systems
+
+
+C:\Users\User\Downloads\OS-L1\Operating Systems>md Instructor
+
+
+C:\Users\User\Downloads\OS-L1\Operating Systems>md Students
+
+
+C:\Users\User\Downloads\OS-L1\Operating Systems>md Topics
+
+
+C:\Users\User\Downloads\OS-L1\Operating Systems>cd ..
+
+
+
+
+C:\Users\User\Downloads\OS-L1>cd Software Engineering
+
+
+C:\Users\User\Downloads\OS-L1\Software Engineering>md Instructor
+
+
+C:\Users\User\Downloads\OS-L1\Software Engineering>md Students
+
+
+C:\Users\User\Downloads\OS-L1\Software Engineering>md Topics
+
+
+C:\Users\User\Downloads\OS-L1\Software Engineering>cd ..
+
+
+C:\Users\User\Downloads\OS-L1>tree
+Folder PATH listing
+Volume serial number is 74F2-7D16
+C:.
+├───Networks
+│   ├───Instructor
+│   ├───Students
+│   └───Topics
+├───Operating Systems
+│   ├───Instructor
+│   ├───Students
+│   └───Topics
+└───Software Engineering
+    ├───Instructor
+    ├───Students
+    └───Topics
+
+
+C:\Users\User\Downloads\OS-L1>cd Networks
+
+
+C:\Users\User\Downloads\OS-L1\Networks>cd Topics
+
+
+C:\Users\User\Downloads\OS-L1\Networks\Topics>mkdir ch1 ch2 ch3 ch4 ch5
+
+
+C:\Users\User\Downloads\OS-L1\Networks\Topics>cd ..
+
+
+C:\Users\User\Downloads\OS-L1\Networks>cd ..
+
+
+
+
+C:\Users\User\Downloads\OS-L1>cd Operating Systems
+
+
+C:\Users\User\Downloads\OS-L1\Operating Systems>cd Topics
+
+
+C:\Users\User\Downloads\OS-L1\Operating Systems\Topics>mkdir ch1 ch2 ch3 ch4 ch5
+
+
+C:\Users\User\Downloads\OS-L1\Operating Systems\Topics>cd ..
+
+
+C:\Users\User\Downloads\OS-L1\Operating Systems>cd ..
+
+
+
+
+C:\Users\User\Downloads\OS-L1>cd Software Engineering
+
+
+C:\Users\User\Downloads\OS-L1\Software Engineering>cd Topics
+
+
+C:\Users\User\Downloads\OS-L1\Software Engineering\Topics>mkdir ch1 ch2ch3 ch4 ch5
+
+
+C:\Users\User\Downloads\OS-L1\Software Engineering\Topics>cd ..
+
+
+C:\Users\User\Downloads\OS-L1\Software Engineering>cd ..
+
+
+C:\Users\User\Downloads\OS-L1>tree
+Folder PATH listing
+Volume serial number is 74F2-7D16
+C:.
+├───Networks
+│   ├───Instructor
+│   ├───Students
+│   └───Topics
+│       ├───ch1
+│       ├───ch2
+│       ├───ch3
+│       ├───ch4
+│       └───ch5
+├───Operating Systems
+│   ├───Instructor
+│   ├───Students
+│   └───Topics
+│       ├───ch1
+│       ├───ch2
+│       ├───ch3
+│       ├───ch4
+│       └───ch5
+└───Software Engineering
+    ├───Instructor
+    ├───Students
+    └───Topics
+        ├───ch1
+        ├───ch2
+        ├───ch3
+        ├───ch4
+        └───ch5
+
+
+C:\Users\User\Downloads\OS-L1>cd Operating Systems
+
+
+C:\Users\User\Downloads\OS-L1\Operating Systems>cd Students
+
+
+C:\Users\User\Downloads\OS-L1\Operating Systems\Students>mkdir Allysa Avril Aeron Joshua Hilary Angelo Reo Glenda Kiko Leon
+
+
+C:\Users\User\Downloads\OS-L1\Operating Systems\Students>cd ..
+
+
+C:\Users\User\Downloads\OS-L1\Operating Systems>cd ..
+
+
+C:\Users\User\Downloads\OS-L1>tree
+Folder PATH listing
+Volume serial number is 74F2-7D16
+C:.
+├───Networks
+│   ├───Instructor
+│   ├───Students
+│   └───Topics
+│       ├───ch1
+│       ├───ch2
+│       ├───ch3
+│       ├───ch4
+│       └───ch5
+├───Operating Systems
+│   ├───Instructor
+│   ├───Students
+│   │   ├───Aeron
+│   │   ├───Allysa
+│   │   ├───Angelo
+│   │   ├───Avril
+│   │   ├───Glenda
+│   │   ├───Hilary
+│   │   ├───Joshua
+│   │   ├───Kiko
+│   │   ├───Leon
+│   │   └───Reo
+│   └───Topics
+│       ├───ch1
+│       ├───ch2
+│       ├───ch3
+│       ├───ch4
+│       └───ch5
+└───Software Engineering
+    ├───Instructor
+    ├───Students
+    └───Topics
+        ├───ch1
+        ├───ch2
+        ├───ch3
+        ├───ch4
+        └───ch5
+
+
+C:\Users\User\Downloads\OS-L1>move "Operating Systems\Students\Avril" "Networks\Students\"
+        1 dir(s) moved.
+
+
+C:\Users\User\Downloads\OS-L1>move "Operating Systems\Students\Kiko" "Networks\Students\"
+        1 dir(s) moved.
+
+
+C:\Users\User\Downloads\OS-L1>move "Operating Systems\Students\Leon" "Networks\Students\"
+        1 dir(s) moved.
+
+
+C:\Users\User\Downloads\OS-L1>tree
+Folder PATH listing
+Volume serial number is 74F2-7D16
+C:.
+├───Networks
+│   ├───Instructor
+│   ├───Students
+│   │   ├───Avril
+│   │   ├───Kiko
+│   │   └───Leon
+│   └───Topics
+│       ├───ch1
+│       ├───ch2
+│       ├───ch3
+│       ├───ch4
+│       └───ch5
+├───Operating Systems
+│   ├───Instructor
+│   ├───Students
+│   │   ├───Aeron
+│   │   ├───Allysa
+│   │   ├───Angelo
+│   │   ├───Glenda
+│   │   ├───Hilary
+│   │   ├───Joshua
+│   │   └───Reo
+│   └───Topics
+│       ├───ch1
+│       ├───ch2
+│       ├───ch3
+│       ├───ch4
+│       └───ch5
+└───Software Engineering
+    ├───Instructor
+    ├───Students
+    └───Topics
+        ├───ch1
+        ├───ch2
+        ├───ch3
+        ├───ch4
+        └───ch5
+
+
+C:\Users\User\Downloads\OS-L1>move "Operating Systems\Students\Aeron" "Software Engineering\Students\"
+        1 dir(s) moved.
+
+
+C:\Users\User\Downloads\OS-L1>move "Operating Systems\Students\Hilary" "Software Engineering\Students\"
+        1 dir(s) moved.
+
+
+C:\Users\User\Downloads\OS-L1>move "Operating Systems\Students\Angelo" "Software Engineering\Students\"
+        1 dir(s) moved.
+
+
+C:\Users\User\Downloads\OS-L1>tree
+Folder PATH listing
+Volume serial number is 74F2-7D16
+C:.
+├───Networks
+│   ├───Instructor
+│   ├───Students
+│   │   ├───Avril
+│   │   ├───Kiko
+│   │   └───Leon
+│   └───Topics
+│       ├───ch1
+│       ├───ch2
+│       ├───ch3
+│       ├───ch4
+│       └───ch5
+├───Operating Systems
+│   ├───Instructor
+│   ├───Students
+│   │   ├───Allysa
+│   │   ├───Glenda
+│   │   ├───Joshua
+│   │   └───Reo
+│   └───Topics
+│       ├───ch1
+│       ├───ch2
+│       ├───ch3
+│       ├───ch4
+│       └───ch5
+└───Software Engineering
+    ├───Instructor
+    ├───Students
+    │   ├───Aeron
+    │   ├───Angelo
+    │   └───Hilary
+    └───Topics
+        ├───ch1
+        ├───ch2
+        ├───ch3
+        ├───ch4
+        └───ch5
+
+
+C:\Users\User\Downloads\OS-L1>cd Operating Systems
+
+
+C:\Users\User\Downloads\OS-L1\Operating Systems>cd Instructor
+
+
+C:\Users\User\Downloads\OS-L1\Operating Systems\Instructor>mkdir "CO Pascua"
+
+
+C:\Users\User\Downloads\OS-L1\Operating Systems\Instructor>cd ..
+
+
+C:\Users\User\Downloads\OS-L1\Operating Systems>cd ..
+
+
+C:\Users\User\Downloads\OS-L1>tree
+Folder PATH listing
+Volume serial number is 74F2-7D16
+C:.
+├───Networks
+│   ├───Instructor
+│   ├───Students
+│   │   ├───Avril
+│   │   ├───Kiko
+│   │   └───Leon
+│   └───Topics
+│       ├───ch1
+│       ├───ch2
+│       ├───ch3
+│       ├───ch4
+│       └───ch5
+├───Operating Systems
+│   ├───Instructor
+│   │   └───CO Pascua
+│   ├───Students
+│   │   ├───Allysa
+│   │   ├───Glenda
+│   │   ├───Joshua
+│   │   └───Reo
+│   └───Topics
+│       ├───ch1
+│       ├───ch2
+│       ├───ch3
+│       ├───ch4
+│       └───ch5
+└───Software Engineering
+    ├───Instructor
+    ├───Students
+    │   ├───Aeron
+    │   ├───Angelo
+    │   └───Hilary
+    └───Topics
+        ├───ch1
+        ├───ch2
+        ├───ch3
+        ├───ch4
+        └───ch5
+
+
+C:\Users\User\Downloads\OS-L1>cd Networks
+
+
+C:\Users\User\Downloads\OS-L1\Networks>cd Instructor
+
+
+C:\Users\User\Downloads\OS-L1\Networks\Instructor>mkdir "CO Pascua"
+
+
+C:\Users\User\Downloads\OS-L1\Networks\Instructor>cd ..
+
+
+C:\Users\User\Downloads\OS-L1\Networks>cd ..
+
+
+C:\Users\User\Downloads\OS-L1>tree
+Folder PATH listing
+Volume serial number is 74F2-7D16
+C:.
+├───Networks
+│   ├───Instructor
+│   │   └───CO Pascua
+│   ├───Students
+│   │   ├───Avril
+│   │   ├───Kiko
+│   │   └───Leon
+│   └───Topics
+│       ├───ch1
+│       ├───ch2
+│       ├───ch3
+│       ├───ch4
+│       └───ch5
+├───Operating Systems
+│   ├───Instructor
+│   │   └───CO Pascua
+│   ├───Students
+│   │   ├───Allysa
+│   │   ├───Glenda
+│   │   ├───Joshua
+│   │   └───Reo
+│   └───Topics
+│       ├───ch1
+│       ├───ch2
+│       ├───ch3
+│       ├───ch4
+│       └───ch5
+└───Software Engineering
+    ├───Instructor
+    ├───Students
+    │   ├───Aeron
+    │   ├───Angelo
+    │   └───Hilary
+    └───Topics
+        ├───ch1
+        ├───ch2
+        ├───ch3
+        ├───ch4
+        └───ch5
+
+
+C:\Users\User\Downloads\OS-L1>cd Sotfware Engineering
+The system cannot find the path specified.
+
+
+C:\Users\User\Downloads\OS-L1>cd Software Engineering
+
+
+C:\Users\User\Downloads\OS-L1\Software Engineering>cd Instructor
+
+
+C:\Users\User\Downloads\OS-L1\Software Engineering\Instructor>mkdir "COPascua"
+
+
+C:\Users\User\Downloads\OS-L1\Software Engineering\Instructor>cd ..
+
+
+C:\Users\User\Downloads\OS-L1\Software Engineering>cd ..
+
+
+C:\Users\User\Downloads\OS-L1>tree
+Folder PATH listing
+Volume serial number is 74F2-7D16
+C:.
+├───Networks
+│   ├───Instructor
+│   │   └───CO Pascua
+│   ├───Students
+│   │   ├───Avril
+│   │   ├───Kiko
+│   │   └───Leon
+│   └───Topics
+│       ├───ch1
+│       ├───ch2
+│       ├───ch3
+│       ├───ch4
+│       └───ch5
+├───Operating Systems
+│   ├───Instructor
+│   │   └───CO Pascua
+│   ├───Students
+│   │   ├───Allysa
+│   │   ├───Glenda
+│   │   ├───Joshua
+│   │   └───Reo
+│   └───Topics
+│       ├───ch1
+│       ├───ch2
+│       ├───ch3
+│       ├───ch4
+│       └───ch5
+└───Software Engineering
+    ├───Instructor
+    │   └───CO Pascua
+    ├───Students
+    │   ├───Aeron
+    │   ├───Angelo
+    │   └───Hilary
+    └───Topics
+        ├───ch1
+        ├───ch2
+        ├───ch3
+        ├───ch4
+        └───ch5
+
+
+C:\Users\User\Downloads\OS-L1>ren"Networks\Instructor\CO Pascua" "RPH Cabatic"
+The system cannot find the path specified.
+
+
+C:\Users\User\Downloads\OS-L1>ren "Networks\Instructor\CO Pascua" "RPH Cabatic"
+
+
+C:\Users\User\Downloads\OS-L1>ren "Software Engineering\Instructor\CO Pascua" "HE Valdez"
+
+
+C:\Users\User\Downloads\OS-L1>tree
+Folder PATH listing
+Volume serial number is 74F2-7D16
+C:.
+├───Networks
+│   ├───Instructor
+│   │   └───RPH Cabatic
+│   ├───Students
+│   │   ├───Avril
+│   │   ├───Kiko
+│   │   └───Leon
+│   └───Topics
+│       ├───ch1
+│       ├───ch2
+│       ├───ch3
+│       ├───ch4
+│       └───ch5
+├───Operating Systems
+│   ├───Instructor
+│   │   └───CO Pascua
+│   ├───Students
+│   │   ├───Allysa
+│   │   ├───Glenda
+│   │   ├───Joshua
+│   │   └───Reo
+│   └───Topics
+│       ├───ch1
+│       ├───ch2
+│       ├───ch3
+│       ├───ch4
+│       └───ch5
+└───Software Engineering
+    ├───Instructor
+    │   └───HE Valdez
+    ├───Students
+    │   ├───Aeron
+    │   ├───Angelo
+    │   └───Hilary
+    └───Topics
+        ├───ch1
+        ├───ch2
+        ├───ch3
+        ├───ch4
+        └───ch5
+
+
+C:\Users\User\Downloads\OS-L1>
